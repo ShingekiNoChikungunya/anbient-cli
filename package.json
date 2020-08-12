@@ -1,0 +1,29 @@
+{
+  "name": "anbient-cli",
+  "version": "0.0.1",
+  "description": "A command line navigation through the Anbient website",
+  "main": "anbient-cli.js",
+  "scripts": {
+    "start": "node anbient-cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShingekiNoChikungunya/anbient-cli.git"
+  },
+  "keywords": [
+    "anbient",
+    "animes"
+  ],
+  "author": "SnC group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShingekiNoChikungunya/anbient-cli/issues"
+  },
+  "homepage": "https://github.com/ShingekiNoChikungunya/anbient-cli#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.5.2",
+    "yargs": "^15.4.1"
+  }
+}
